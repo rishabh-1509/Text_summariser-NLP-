@@ -1,13 +1,13 @@
 transformers 
 transformers[sentencepiece ]
 dataset
-sacreble 
+sacrebleu 
 rouge_score
 py7zr
 pandas
 nltk 
 tqdm 
-pyyaml 
+PyYAML 
 matplotlib 
 torch 
 notebook 
