@@ -1,5 +1,5 @@
 import os
-from box import Box
+from box.exceptions import BoxValueError
 import yaml
 from text_summarizer.logging import logger
 from ensure import ensure_annotations
