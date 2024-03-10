@@ -1,7 +1,7 @@
 import setuptools
 
 with open("README.md", "r", encoding="utf-8") as f:
-    long_description = f.read()\
+    long_description = f.read()
     
 __version__ = "0.0.0"
 
@@ -18,7 +18,7 @@ setuptools.setup(
     description="Text Summarizer - a simple text summarizer nlp project",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/rishabh-1509/Text_summariser-NLP",
+    url=f"https://github.com/rishabh-1509/Text_summariser-NLP",
     project_urls={
         "Bug Tracker": "https://github.com/rishabh-1509/Text_summariser-NLP/issues",
     },
