@@ -9,4 +9,4 @@ data_ingestion:
 data_validation:
  root_dir: artifacts/data_validation
  STATUS_FILE: artifacts/data_validation/status.txt
- ALL_REQUIRED_DATA: ["train", "test", "validation", ]
+ ALL_REQUIRED_FILES: ["train", "test", "validation"]

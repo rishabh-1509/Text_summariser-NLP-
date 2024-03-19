@@ -27,7 +27,7 @@ class ConfigurationManager:
             return data_ingestion_config
       
       def get_data_validation_config(self) -> DataValidationConfig:
-          config = self.config.data_ingestion
+          config = self.config.data_validation
 
           create_directories([config.root_dir])
 
