@@ -8,7 +8,7 @@ class DataTransformationTrainingPipeline:
     def __init__(self):
         pass 
     def main(self):
-        config = ConfigurationManager()
-        data_tranformation_config = config.get_data_tranformation_config()
-        data_tranformation = DataTransformation(config.get_data_tranformation_config())
-        data_tranformation.converter()
+            config = ConfigurationManager()
+            data_tranformation_config = config.get_data_tranformation_config()
+            data_tranformation = DataTransformation(config.get_data_tranformation_config())
+            data_tranformation.converter()
