@@ -1,9 +1,8 @@
 from text_summarizer.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
-from text_summarizer.logging import  logger
 from text_summarizer.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
 from text_summarizer.pipeline.stage_02_validation import DataValidationTrainingPipeline
 from text_summarizer.pipeline.stage_04_model_trainig import ModelTrainerTrainingPipeline
-
+from text_summarizer.logging import  logger
 
 
 STAGE_NAME = "Data Ingestion stage"

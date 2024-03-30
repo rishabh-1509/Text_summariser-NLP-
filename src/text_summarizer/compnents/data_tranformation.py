@@ -4,8 +4,7 @@ from datasets import load_dataset, load_from_disk
 from text_summarizer.entity import DataTransformationConfig
 import os
 class DataTransformation:
-    def __init__(
-            self,config: DataTransformationConfig):
+    def __init__(self,config: DataTransformationConfig):
         self.config = config
         self.tokenizer = AutoTokenizer.from_pretrained(config.tokenizer_name)
     
